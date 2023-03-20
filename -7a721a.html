@@ -94,7 +94,102 @@
       </div>
     
   </header>
-  <article id="https://www.notion.so/7a721ab47bc94467b8b2894a2627e803" class="PageRoot"><h1 id="https://www.notion.so/d61d648d8eba4825a80ce429b1bbccc2" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/d61d648d8eba4825a80ce429b1bbccc2"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">条件判断</strong></strong></span></span></h1><div id="https://www.notion.so/48a065293bcd44c18d3709cc01d27bef" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></article>
+  <article id="https://www.notion.so/7a721ab47bc94467b8b2894a2627e803" class="PageRoot"><h1 id="https://www.notion.so/d61d648d8eba4825a80ce429b1bbccc2" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/d61d648d8eba4825a80ce429b1bbccc2"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">条件判断</strong></strong></span></span></h1><pre id="https://www.notion.so/49356adc217f4117be132b45fd0568d5" class="Code"><code><span class="SemanticStringArray"><span class="SemanticString"><span>a <span class="token operator">=</span> <span class="token number">2</span>
+b <span class="token operator">=</span> <span class="token number">3</span>
+<span class="token keyword">if</span> a <span class="token operator">></span> b<span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>a <span class="token operator">+</span> b<span class="token punctuation">)</span>
+<span class="token keyword">elif</span> a <span class="token operator">&lt;</span> b<span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>b <span class="token operator">-</span> a<span class="token punctuation">)</span>
+<span class="token keyword">else</span><span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>a <span class="token punctuation">,</span> b<span class="token punctuation">)</span>
+<span class="token comment"># a == b	a 是否等于 b</span>
+<span class="token comment"># a > b	a 是否大于 b</span>
+<span class="token comment"># a >= b	a 是否大于等于 b</span>
+<span class="token comment"># a &lt; b	a 是否小于 b</span>
+<span class="token comment"># a &lt;= b	a 是否小于等于 b</span>
+<span class="token comment"># a != b	a 是否不等于 b</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">&lt;</span> <span class="token number">3</span> <span class="token keyword">and</span> <span class="token number">2</span> <span class="token operator">&lt;</span> <span class="token number">5</span><span class="token punctuation">)</span>                <span class="token comment"># True</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">></span> <span class="token number">3</span> <span class="token keyword">or</span> <span class="token number">3</span> <span class="token operator">==</span> <span class="token number">3</span><span class="token punctuation">)</span>                <span class="token comment"># True</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token number">2</span> <span class="token operator">></span> <span class="token number">3</span> <span class="token keyword">or</span> <span class="token keyword">not</span> <span class="token number">3</span> <span class="token operator">==</span> <span class="token number">3</span> <span class="token keyword">and</span> <span class="token number">5</span> <span class="token operator">&lt;</span> <span class="token number">10</span><span class="token punctuation">)</span> <span class="token comment"># False</span>
+<span class="token comment"># True and True	需要两边同时满足才能返回 True</span>
+<span class="token comment"># True or False	只要一边是 True 则返回 True</span>
+<span class="token comment"># not True	给出相反结果</span></span></span></span></code></pre><h1 id="https://www.notion.so/2010ddc0934542d9a01ddea83d0cf712" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/2010ddc0934542d9a01ddea83d0cf712"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">循环</strong></strong></span></span></h1><pre id="https://www.notion.so/9abe37241af143c7826f2c66f24f9236" class="Code"><code><span class="SemanticStringArray"><span class="SemanticString"><span><span class="token comment"># for 循环 天然适合在有限的循环中</span>
+<span class="token comment"># python 截取参数一般是 头实尾虚 包括头不包括尾</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span> 
+<span class="token comment"># 0 1 2 3 4  range(5) 一个参数, 默认从0,开始</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">5</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+	<span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+<span class="token comment"># 2 3 4   range(2, 5) 两个参数,头实尾虚</span>
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">10</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+  <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+<span class="token comment"># 3 5 7 9 range(3, 10, 2) 三个参数,前面两个参数为范围,最后一个参数,每隔几个数字取一个</span>
+
+<span class="token comment"># while  可以被用在无限循环中</span>
+num <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token keyword">while</span> num <span class="token operator">!=</span> <span class="token number">20</span><span class="token punctuation">:</span>
+    num <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+<span class="token comment"># 死循环 </span>
+
+<span class="token comment">#continue 和 break</span>
+num <span class="token operator">=</span> <span class="token number">10</span>
+<span class="token keyword">while</span> num <span class="token operator">!=</span> <span class="token number">20</span><span class="token punctuation">:</span>
+    num <span class="token operator">+=</span> <span class="token number">1</span>
+    <span class="token keyword">if</span> num <span class="token operator">></span> <span class="token number">19</span><span class="token punctuation">:</span>
+        <span class="token keyword">break</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>num<span class="token punctuation">)</span>
+<span class="token comment"># break 结束当前循环</span>
+
+<span class="token keyword">for</span> i <span class="token keyword">in</span> <span class="token builtin">range</span><span class="token punctuation">(</span><span class="token number">10</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">if</span> i <span class="token operator">%</span> <span class="token number">2</span> <span class="token operator">==</span> <span class="token number">0</span><span class="token punctuation">:</span>
+        <span class="token keyword">continue</span> <span class="token comment"># 跳过偶数</span>
+    <span class="token keyword">print</span><span class="token punctuation">(</span>i<span class="token punctuation">)</span>
+ <span class="token comment"># continue 跳过此次循环进行下一次循环 </span></span></span></span></code></pre><h1 id="https://www.notion.so/cbad5f4d0dc44c9aab0a465c77bc25e9" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--1"><a class="Anchor" href="#https://www.notion.so/cbad5f4d0dc44c9aab0a465c77bc25e9"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">数据种类</strong></strong></span></span></h1><h2 id="https://www.notion.so/3d2e5c8922554944b13d8ef06f6ab1e7" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/3d2e5c8922554944b13d8ef06f6ab1e7"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">list </span><span class="SemanticString"><strong class="SemanticString__Fragment SemanticString__Fragment--Bold">列表</strong></span></span></h2><pre id="https://www.notion.so/34e3e56b2be94e479a88332306831997" class="Code"><code><span class="SemanticStringArray"><span class="SemanticString"><span>carList <span class="token operator">=</span><span class="token punctuation">[</span><span class="token string">"A186"</span><span class="token punctuation">,</span><span class="token string">"宝马"</span><span class="token punctuation">,</span><span class="token string">"奔驰"</span><span class="token punctuation">,</span><span class="token string">"劳斯莱斯"</span><span class="token punctuation">]</span>
+<span class="token comment"># 取单个元素</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>   <span class="token comment"># A186      index 下标首位   </span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># 劳斯莱斯  index 尾下标首位  </span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>   <span class="token comment"># 劳斯莱斯  index 0开始到这里3位最后一个元素</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># 奔驰      index 负数从-1尾 从后往前数第二个</span>
+<span class="token comment"># 取某个元素集合</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token punctuation">:</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token punctuation">)</span>  <span class="token comment"># ['A186', '宝马', '奔驰']     :号在数字前即为0到3区间,取头不取尾</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">:</span><span class="token number">4</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment"># ['奔驰', '劳斯莱斯']          取头不取尾</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token operator">-</span><span class="token number">3</span><span class="token punctuation">:</span><span class="token punctuation">]</span><span class="token punctuation">)</span> <span class="token comment"># ['宝马', '奔驰', '劳斯莱斯']   :号在数字后即为-3到尾,取到最后</span>
+<span class="token comment"># 替换元素值</span>
+carList<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">12</span>   
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+<span class="token comment"># 列表中，你可以存放不同类型的元素，字符，数字，甚至列表里还能有列表。</span>
+carList<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span><span class="token operator">=</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span><span class="token number">2</span><span class="token punctuation">,</span><span class="token number">4</span><span class="token punctuation">,</span><span class="token number">5</span><span class="token punctuation">]</span>
+<span class="token keyword">print</span><span class="token punctuation">(</span>carList<span class="token punctuation">)</span>      <span class="token comment"># ['A186', '宝马', '奔驰', [1, 2, 4, 5]]</span></span></span></span></code></pre><h2 id="https://www.notion.so/c4c473a9cb9f435c98e7ad69fce616d4" class="ColorfulBlock ColorfulBlock--ColorDefault Heading Heading--2"><a class="Anchor" href="#https://www.notion.so/c4c473a9cb9f435c98e7ad69fce616d4"><svg width="16" height="16" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a><span class="SemanticStringArray"><span class="SemanticString">list常用API</span></span></h2><pre id="https://www.notion.so/dd4bb242008b4970a01b9a7e0f32fe7a" class="Code"><code><span class="SemanticStringArray"><span class="SemanticString"><span><span class="token title important"><span class="token punctuation">###</span> 增加元素</span>
+
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`append()`</span> : 在列表末尾添加新元素。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`extend()`</span> : 在列表末尾添加扩展列表中的多个值。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`insert()`</span> : 在指定位置插入一个元素。
+
+<span class="token title important"><span class="token punctuation">###</span> 删除元素</span>
+
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`remove()`</span> : 指定要删除的元素。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`pop()`</span> : 删除指定位置的元素，如果不指定位置，则默认删除最后一个元素。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`clear()`</span> : 删除列表中的所有元素。
+
+<span class="token title important"><span class="token punctuation">###</span> 修改元素</span>
+
+<span class="token list punctuation">-</span> 直接指定列表中的位置并赋予新的值。
+
+<span class="token title important"><span class="token punctuation">###</span> 查询元素</span>
+
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`index()`</span> : 查找指定元素的位置。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`count()`</span> : 统计指定元素在列表中出现的次数。
+
+<span class="token title important"><span class="token punctuation">###</span> 排序</span>
+
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`sort()`</span> : 按升序排序。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`reverse()`</span> : 反转列表。
+
+<span class="token title important"><span class="token punctuation">###</span> 其他操作</span>
+
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`len()`</span> : 列表的长度。
+<span class="token list punctuation">-</span> <span class="token code-snippet code keyword">`in`</span> : 检查元素是否在列表中</span></span></span></code></pre><div id="https://www.notion.so/cb6953c1854d479d938818f75804f011" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div><div id="https://www.notion.so/ffa0060ae3404c9da4b53f5dd4d4a2fe" class="ColorfulBlock ColorfulBlock--ColorDefault Text"><p class="Text__Content"><span class="SemanticStringArray"></span></p></div></article>
   <footer class="Footer">
   <div>&copy; python 2022</div>
   <div>&centerdot;</div>
